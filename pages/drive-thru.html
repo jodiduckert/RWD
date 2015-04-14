@@ -1,0 +1,171 @@
+<html>
+	<head>
+		<title>Drive-Thru</title>
+		<link rel="stylesheet" href="../css/style.css">
+		<link href='http://fonts.googleapis.com/css?family=Marcellus+SC|Cinzel' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Oswald:400,300|Inconsolata' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Roboto:400,300,500,700' rel='stylesheet' type='text/css'>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	</head>
+	<body>
+
+		<div class="main-logo">
+			<a href="../index.html" title="Home">
+			<img id="logo" src="../imgs/SKClonglogo.png" alt="Summer Kitchen Cafe">
+		</a>
+		</div>
+		
+		<div class="drive-thru-pic">
+			<img id="drivethru" src="../imgs/DriveThru.png" alt="Drive Thru Menu">
+		</div>
+
+		<nav>
+			
+			<div id="drivethru1">
+				<p>DRIVE-THRU</p>
+			</div>
+
+			<div id="greenbar">
+			</div>
+
+			<div class="bigmenu" id="bigdtinfo">
+				<p>INFORMATION</p>
+			</div>
+
+			<div id="greenbar">
+			</div>
+
+			<div class="smallmenu" id="smalldtinfo">
+				<p>
+					Life is good.<br>
+					There's a Summer Kitchen near you.<br>
+					You can go there whenever you want.<br><br>
+
+					BUT...did you know that two of our locations have drive-through windows?   You can call ahead and pick up your meals, muffins, rolls, or desserts in the drive-through.  Can't make up your mind?  You can always decide when you get here.<br><br>
+
+					There's a Scooter's Coffeehouse here too.  Do you love a cappuccino in the morning?  A smoothie in the afternoon?  We can help.<br><br>
+
+					Stop by and see us.  We'll get you on your way with a treat and a smile.  And you don't even have to get out of the car.<br><br>
+
+					Life is actually pretty great.
+				</p>
+			</div>
+
+			<div class="bigmenu" id="bigscootersinfo">
+				<p>SCOOTER'S INFO</p>
+			</div>
+
+			<div id="greenbar">
+			</div>
+
+			<div class="smallmenu" id="smallscootersinfo">
+				<p>
+					Scooter's Coffeehouse and Summer Kitchen...a delicious partnership.<br>
+					A few years back, Summer Kitchen and Scooter's Coffeehouse decided to get together. We made an amazing discovery: Scooter's premium coffee and smoothies, paired with Summer Kitchen's delectable treats made for an exciting dining experience.  At any of our locations you can order from Scooter's extensive menu while eating in Summer Kitchen's Dining Room. Don't have time to stop?  Speed through our drive-thru window and treat yourself.<br><br>
+
+					What could be better than that?
+				</p>
+			</div>
+
+			<div class="bigmenu" id="bigscootersmenu">
+				<p>SCOOTER'S MENU</p>
+			</div>
+
+			<div id="greenbar">
+			</div>
+
+			<div class="smallmenu" id="smallscootersmenu">
+				<p>
+					<b>Hot Espresso Drinks</b><br>
+					Latte<br>
+					Cappuccino<br>
+					Flavored Latte<br>
+					Mocha<br>
+					Caramelicious<br>
+					White Mocha<br>
+					Candy Bar<br>
+					Breve<br>
+					Flavored Breve<br>
+					Americano<br>
+					Scooter Shooter<br><br>
+
+					<b>Other Hot Drinks</b><br>
+					Brewed Coffee<br>
+					Cafe Au Lait<br>
+					Chai Tea Latte<br>
+					Dirty Chai<br>
+					Hot Chocolate<br><br>
+
+					<b>Iced Espresso</b><br>
+					<br>
+
+					<b>Espresso Blenders</b><br>
+					<br>
+
+					<b>Other Smoothies</b><br><br>
+				</p>
+			</div>
+
+			<script type="text/javascript">
+				$(function() {
+					$dtinfo = $('#smalldtinfo');
+
+					$('#bigdtinfo').click(function(){
+						$dtinfo.slideToggle();
+						
+					});
+				});
+			</script>
+
+			<script type="text/javascript">
+				$(function() {
+					$scootersinfo = $('#smallscootersinfo');
+
+					$('#bigscootersinfo').click(function(){
+						$scootersinfo.slideToggle();
+						
+					});
+				});
+			</script>
+
+			<script type="text/javascript">
+				$(function() {
+					$scootersmenu = $('#smallscootersmenu');
+
+					$('#bigscootersmenu').click(function(){
+						$scootersmenu.slideToggle();
+						
+					});
+				});
+			</script>
+
+			<script type="text/javascript">
+				$(function(){
+					$('#bigdtinfo').click(function(){
+						$('html,body').animate({scrollTop:$('#bigdtinfo').offset().top}, 1000);
+
+					});
+				});
+			</script>
+
+			<script type="text/javascript">
+				$(function(){
+					$('#bigscootersinfo').click(function(){
+						$('html,body').animate({scrollTop:$('#bigscootersinfo').offset().top}, 1000);
+
+					});
+				});
+			</script>
+
+			<script type="text/javascript">
+				$(function(){
+					$('#bigscootersmenu').click(function(){
+						$('html,body').animate({scrollTop:$('#bigscootersmenu').offset().top}, 1000);
+
+					});
+				});
+			</script>
+
+		</nav>
+	</body>
+</html>

@@ -1,0 +1,426 @@
+html, body, nav, section, div, img, ul, p {
+	margin: 0 auto;
+	padding: 0;
+	font-family: "Inconsolata", sans-serif;
+}
+
+.content {
+	margin: 0 auto;
+}
+
+/* MOBILE VERSION: HOME INDEX HTML PAGE; */
+/* MOBILE VERSION: HOME INDEX HTML PAGE; */
+/* MOBILE VERSION: HOME INDEX HTML PAGE; */
+/* MOBILE VERSION: HOME INDEX HTML PAGE; */
+/* MOBILE VERSION: HOME INDEX HTML PAGE; */
+/* MOBILE VERSION: HOME INDEX HTML PAGE; */
+/* MOBILE VERSION: HOME INDEX HTML PAGE; */
+
+#logo {
+	max-width: 100%;
+	height: auto;
+	/* padding-left: 0.625em;
+	padding-right: 0.625em;
+	padding-top: 0.625em; */
+}
+
+#strawberries {
+	max-width: 100%;
+	height: auto;
+	padding-top: 0em;
+}
+
+#buttondiv {
+	position: absolute;
+	right: 1.250em;
+	padding-top: 1.875em;
+}
+
+#button {
+	height: 2.188em;
+	width: 2.188em;
+}
+
+#about-us {
+	background-color: #CF2727;
+	height: 6.25em;
+	width: auto;
+	position: relative;
+}
+
+#about-us>p {
+	text-align: left;
+	padding-left: 1.250em;
+	font-size: 1.75em;
+	font-family: "Inconsolata", sans-serif;
+	padding-top: 1.15em;
+	color: #FFDC6A;
+}
+
+#about-us>a {
+	position: absolute;
+	width: 100%;
+	height: 6.25em;
+	text-decoration: none;
+}
+
+#menu {
+	background-color: #FF7351;
+	height: 100px;
+	width: auto;
+}
+
+#menu>p {
+	text-align: left;
+	padding-left: 1.250em;
+	font-size: 1.75em;
+	font-family: "Inconsolata", sans-serif;
+	padding-top: 1.15em;
+	color: #FFDC6A;
+}
+
+#menu>a {
+	position: absolute;
+	width: 100%;
+	height: 6.25em;
+	text-decoration: none;
+}
+
+#catering {
+	background-color: #CF2727;
+	height: 6.25em;
+	width: auto;
+}
+
+#catering>p {
+	text-align: left;
+	padding-left: 1.250em;
+	font-size: 1.75em;
+	font-family: "Inconsolata", sans-serif;
+	padding-top: 1.15em;
+	color: #FFDC6A;
+}
+
+#catering>a {
+	position: absolute;
+	width: 100%;
+	height: 6.25em;
+	text-decoration: none;
+}
+
+#drive-thru {
+	background-color: #FF7351;
+	height: 6.25em;
+	width: auto;
+}
+
+#drive-thru>p {
+	text-align: left;
+	padding-left: 1.250em;
+	font-size: 1.75em;
+	font-family: "Inconsolata", sans-serif;
+	padding-top: 1.15em;
+	color: #FFDC6A;
+}
+
+#drive-thru>a {
+	position: absolute;
+	width: 100%;
+	height: 6.25em;
+	text-decoration: none;
+}
+
+#locations {
+	background-color: #CF2727;
+	height: 6.25em;
+	width: auto;
+}
+
+#locations>p {
+	text-align: left;
+	padding-left: 1.250em;
+	font-size: 1.75em;
+	font-family: "Inconsolata", sans-serif;
+	padding-top: 1.15em;
+	color: #FFDC6A;
+}
+
+#locations>a {
+	position: absolute;
+	width: 100%;
+	height: 6.25em;
+	text-decoration: none;
+}
+
+#employees-only {
+	background-color: #FF7351;
+	height: 6.25em;
+	width: auto;
+}
+
+#employees-only>p {
+	text-align: left;
+	padding-left: 1.250em;
+	font-size: 1.75em;
+	font-family: "Inconsolata", sans-serif;
+	padding-top: 1.15em;
+	color: #FFDC6A;
+}
+
+#employees-only>a {
+	position: absolute;
+	width: 100%;
+	height: 6.25em;
+	text-decoration: none;
+}
+
+/* MOBILE VERSION: ABOUT US HTML PAGE; */
+/* MOBILE VERSION: ABOUT US HTML PAGE; */
+/* MOBILE VERSION: ABOUT US HTML PAGE; */
+/* MOBILE VERSION: ABOUT US HTML PAGE; */
+/* MOBILE VERSION: ABOUT US HTML PAGE; */
+/* MOBILE VERSION: ABOUT US HTML PAGE; */
+/* MOBILE VERSION: ABOUT US HTML PAGE; */
+
+#aboutus {
+	max-width: 100%;
+	height: auto;
+	padding-top: 0em;
+}
+
+#about-us1 {
+	background-color: #CF2727;
+	height: 100px;
+	width: auto;
+}
+
+#about-us1>p {
+	text-align: center;
+	font-size: 2.5em;
+	font-family: "Inconsolata", sans-serif;
+	padding-top: 0.75em;
+	color: #FFDC6A;
+}
+
+#greenbar {
+	background-color: #BBDE66;
+	height: 0.625em;
+	width: auto;
+}
+
+.bigabout {
+	background-color: #598248;
+	height: 6.25em;
+	width: auto;
+	cursor: pointer;
+}
+
+.bigabout>p {
+	text-align: center;
+	font-size: 2.5em;
+	font-family: "Inconsolata", sans-serif;
+	padding-top: 0.75em;
+	color: #BBDE66;
+}
+
+.smallabout {
+	background-color: #BBDE66;
+	height: auto;
+	width: auto;
+	display: none;
+}
+
+.smallabout>p {
+	text-align: left;
+	font-size: 1em;
+	font-family: "Roboto", sans-serif;
+	color: #273D1D;
+	padding-bottom: 0.625em;
+	padding-left: 1.250em;
+	padding-right: 1.250em;
+}
+
+.darkgreenbar {
+	background-color: #598248;
+	height: 0.625em;
+	width: auto;
+	display: none;
+}
+
+.smallfaq {
+	background-color: #BBDE66;
+	height: 6.25em;
+	width: auto;
+	display: none;
+	cursor: pointer;
+}
+
+.smallfaq>p {
+	text-align: center;
+	font-size: 2.5em;
+	font-family: "Inconsolata", sans-serif;
+	padding-top: 0.75em;
+	color: #598248;
+}
+
+.smallsmallfaq {
+	background-color: #598248;
+	height: auto;
+	width: auto;
+	display: none;
+	cursor: pointer;
+}
+
+.smallsmallfaq>p {
+	text-align: left;
+	font-size: 1em;
+	font-family: "Roboto", sans-serif;
+	color: #BEC1B6;
+	padding-bottom: 0.625em;
+	padding-left: 1.250em;
+	padding-right: 1.250em;
+}
+
+/* MOBILE VERSION: MENU HTML PAGE; */
+/* MOBILE VERSION: MENU HTML PAGE; */
+/* MOBILE VERSION: MENU HTML PAGE; */
+/* MOBILE VERSION: MENU HTML PAGE; */
+/* MOBILE VERSION: MENU HTML PAGE; */
+/* MOBILE VERSION: MENU HTML PAGE; */
+/* MOBILE VERSION: MENU HTML PAGE; */
+
+#meatloaf {
+	max-width: 100%;
+	height: auto;
+	padding-top: 0px;
+}
+
+#menu1 {
+	background-color: #CF2727;
+	height: 6.25em;
+	width: auto;
+}
+
+#menu1>p {
+	text-align: center;
+	font-size: 2.5em;
+	font-family: "Inconsolata", sans-serif;
+	padding-top: 0.75em;
+	color: #FFDC6A;
+}
+
+.bigmenu {
+	background-color: #598248;
+	height: 6.25em;
+	width: auto;
+	cursor: pointer;
+}
+
+.bigmenu>p {
+	text-align: center;
+	font-size: 2.5em;
+	font-family: "Inconsolata", sans-serif;
+	padding-top: 0.75em;
+	color: #BBDE66;
+}
+
+.smallmenu {
+	background-color: #BBDE66;
+	height: auto;
+	width: auto;
+	display: none;
+}
+
+.smallmenu>p {
+	text-align: left;
+	font-size: 1em;
+	font-family: "Roboto", sans-serif;
+	color: #273D1D;
+	padding-bottom: 0.625em;
+	padding-left: 1.250em;
+	padding-right: 1.250em;
+}
+
+/* MOBILE VERSION: CATERING HTML PAGE; */
+/* MOBILE VERSION: CATERING HTML PAGE; */
+/* MOBILE VERSION: CATERING HTML PAGE; */
+/* MOBILE VERSION: CATERING HTML PAGE; */
+/* MOBILE VERSION: CATERING HTML PAGE; */
+/* MOBILE VERSION: CATERING HTML PAGE; */
+/* MOBILE VERSION: CATERING HTML PAGE; */
+
+#muffins {
+	max-width: 100%;
+	height: auto;
+	padding-top: 0em;
+}
+
+#catering1 {
+	background-color: #CF2727;
+	height: 6.25em;
+	width: auto;
+}
+
+#catering1>p {
+	text-align: center;
+	font-size: 2.5em;
+	font-family: "Inconsolata", sans-serif;
+	padding-top: 0.75em;
+	color: #FFDC6A;
+}
+
+/* MOBILE VERSION: DRIVE THRU HTML PAGE; */
+/* MOBILE VERSION: DRIVE THRU HTML PAGE; */
+/* MOBILE VERSION: DRIVE THRU HTML PAGE; */
+/* MOBILE VERSION: DRIVE THRU HTML PAGE; */
+/* MOBILE VERSION: DRIVE THRU HTML PAGE; */
+/* MOBILE VERSION: DRIVE THRU HTML PAGE; */
+/* MOBILE VERSION: DRIVE THRU HTML PAGE; */
+
+#drivethru {
+	max-width: 100%;
+	height: auto;
+	padding-top: 0em;
+}
+
+#drivethru1 {
+	background-color: #CF2727;
+	height: 6.25em;
+	width: auto;
+}
+
+#drivethru1>p {
+	text-align: center;
+	font-size: 2.5em;
+	font-family: "Inconsolata", sans-serif;
+	padding-top: 0.75em;
+	color: #FFDC6A;
+}
+
+/* MOBILE VERSION: LOCATIONS HTML PAGE; */
+/* MOBILE VERSION: LOCATIONS HTML PAGE; */
+/* MOBILE VERSION: LOCATIONS HTML PAGE; */
+/* MOBILE VERSION: LOCATIONS HTML PAGE; */
+/* MOBILE VERSION: LOCATIONS HTML PAGE; */
+/* MOBILE VERSION: LOCATIONS HTML PAGE; */
+/* MOBILE VERSION: LOCATIONS HTML PAGE; */
+
+#locationspic {
+	max-width: 100%;
+	height: auto;
+	padding-top: 0em;
+}
+
+#locations1 {
+	background-color: #CF2727;
+	height: 6.25em;
+	width: auto;
+}
+
+#locations1>p {
+	text-align: center;
+	font-size: 2.5em;
+	font-family: "Inconsolata", sans-serif;
+	padding-top: 0.75em;
+	color: #FFDC6A;
+}
