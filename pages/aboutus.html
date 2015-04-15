@@ -6,6 +6,7 @@
 		<link href='http://fonts.googleapis.com/css?family=Oswald:400,300|Inconsolata' rel='stylesheet' type='text/css'>
 		<link href='http://fonts.googleapis.com/css?family=Roboto:400,300,500,700' rel='stylesheet' type='text/css'>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+		<meta name="viewport" content="initial-scale=1.0">
 	</head>
 	
 	<body>
@@ -226,10 +227,12 @@
 			$(function() {
 				$faq = $('.smallfaq');
 				$bar = $('.darkgreenbar');
+				$sfaq = $('smallsmallfaq');
 
 				$('#bigfaq').click(function(){
-					$faq.slideToggle(),
-					$bar.slideToggle();
+					$sfaq.slideUp(400),
+					$faq.slideToggle(800),
+					$bar.slideToggle(800);
 
 				});
 			});
