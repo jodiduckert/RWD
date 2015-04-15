@@ -226,10 +226,12 @@
 			$(function() {
 				$faq = $('.smallfaq');
 				$bar = $('.darkgreenbar');
+				$sfaq = $('smallsmallfaq');
 
 				$('#bigfaq').click(function(){
-					$faq.slideToggle(),
-					$bar.slideToggle();
+					$sfaq.slideUp(400),
+					$faq.slideToggle(800),
+					$bar.slideToggle(800);
 
 				});
 			});
