@@ -433,16 +433,15 @@ html, body, nav, section, div, img, ul, p {
 /* DESKTOP VERSION */
 /* DESKTOP VERSION */
 
-@media (max-width: 800) {
+@media (min-width: 800px) {
 
 #strawberries {
-	max-width: 100%;
-	height: auto;
-	padding-top: 0em;
-	position: absolute;
-	bottom: 0px;
+	display: none;
 }
 
+.main-bottom-pic{
+	display: block;
+}
 
 
 
