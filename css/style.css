@@ -439,7 +439,7 @@ html, body, nav, section, div, img, ul, p {
 	max-width: 100%;
 	height: auto;
 	padding-top: 0em;
-	position: fixed;
+	position: absolute;
 	bottom: 0px;
 }
 
