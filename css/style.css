@@ -435,11 +435,12 @@ html, body, nav, section, div, img, ul, p {
 
 @media (max-width: 800) {
 
-#main-main-pic {
+#strawberries {
 	max-width: 100%;
 	height: auto;
 	padding-top: 0em;
-	position: bottom;
+	position: fixed;
+	bottom: 0px;
 }
 
 
