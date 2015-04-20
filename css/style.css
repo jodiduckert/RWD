@@ -19,15 +19,37 @@ html, body, nav, section, div, img, ul, p {
 #logo {
 	max-width: 100%;
 	height: auto;
-	/* padding-left: 0.625em;
-	padding-right: 0.625em;
-	padding-top: 0.625em; */
 }
 
 #strawberries {
 	max-width: 100%;
 	height: auto;
 	padding-top: 0em;
+}
+
+.main-bottom-pic{
+	display: none;
+}
+
+#home {
+	display: none;
+	background-color: #FF7351;
+}
+
+#home>p {
+	text-align: left;
+	padding-left: 1.250em;
+	font-size: 1.75em;
+	font-family: "Inconsolata", sans-serif;
+	padding-top: 1.15em;
+	color: #FFDC6A;
+}
+
+#home>a {
+	position: absolute;
+	width: 100%;
+	height: 6.25em;
+	text-decoration: none;
 }
 
 #buttondiv {
@@ -435,14 +457,105 @@ html, body, nav, section, div, img, ul, p {
 
 @media (min-width: 800px) {
 
+/* DESKTOP VERSION: HOMEPAGE; */
+/* DESKTOP VERSION: HOMEPAGE; */
+/* DESKTOP VERSION: HOMEPAGE; */
+/* DESKTOP VERSION: HOMEPAGE; */
+/* DESKTOP VERSION: HOMEPAGE; */
+/* DESKTOP VERSION: HOMEPAGE; */
+/* DESKTOP VERSION: HOMEPAGE; */
+
 #strawberries {
 	display: none;
 }
 
-.main-bottom-pic{
+.main-bottom-pic {
 	display: block;
 }
 
+#bottompic {
+	max-width: 100%;
+	height: auto;
+}
 
+#buttondiv {
+	display: none;
+}
+
+#home {
+	display: block;
+}
+
+/*.desktopmenu {
+	height: 6.25em;
+	width: 14.2857%;
+	float: left;
+	text-align: center;
+	padding-left: 0em;
+}*/
+
+#home {
+	height: 6.25em;
+	width: 14.2857%;
+	float: left;
+	text-align: center;
+	padding: 0em;
+}
+
+#about-us {
+	height: 6.25em;
+	width: 14.2857%;
+	float: left;
+	text-align: center;
+	padding: 0em;
+}
+
+#menu {
+	height: 6.25em;
+	width: 14.2857%;
+	float: left;
+	text-align: center;
+	padding: 0em;
+}
+
+#catering {
+	height: 6.25em;
+	width: 14.2857%;
+	float: left;
+	text-align: center;
+	padding: 0em;
+}
+
+#drive-thru {
+	height: 6.25em;
+	width: 14.2857%;
+	float: left;
+	text-align: center;
+	padding: 0em;
+}
+
+#locations {
+	height: 6.25em;
+	width: 14.2857%;
+	float: left;
+	text-align: center;
+	padding: 0em;
+}
+
+#employees-only {
+	height: 6.25em;
+	width: 14.2857%;
+	float: left;
+	text-align: center;
+	padding: 0em;
+}
+
+/* DESKTOP VERSION: ABOUT US; */
+/* DESKTOP VERSION: ABOUT US; */
+/* DESKTOP VERSION: ABOUT US; */
+/* DESKTOP VERSION: ABOUT US; */
+/* DESKTOP VERSION: ABOUT US; */
+/* DESKTOP VERSION: ABOUT US; */
+/* DESKTOP VERSION: ABOUT US; */
 
 }
