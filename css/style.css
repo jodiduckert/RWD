@@ -215,6 +215,10 @@ html, body, nav, section, div, img, ul, p {
 /* MOBILE VERSION: ABOUT US HTML PAGE; */
 
 #aboutus {
+	display: none;
+}
+
+#aboutus2 {
 	max-width: 100%;
 	height: auto;
 	padding-top: 0em;
@@ -630,6 +634,17 @@ html, body, nav, section, div, img, ul, p {
 /* DESKTOP VERSION: ABOUT US; */
 /* DESKTOP VERSION: ABOUT US; */
 /* DESKTOP VERSION: ABOUT US; */
+
+#aboutus {
+	display: none;
+}
+
+#aboutus2 {
+	display: block;
+	max-width: 100%;
+	height: auto;
+	padding-top: 0em;
+}
 
 .desktopmenu {
 	height: 5em;
