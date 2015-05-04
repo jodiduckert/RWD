@@ -935,3 +935,22 @@ END MENU TEST*/
 }
 
 }
+
+@media (max-width: 480px) {
+
+.bigmenu {
+	background-color: #598248;
+	height: 6.25em;
+	width: auto;
+	cursor: pointer;
+}
+
+.bigmenu>p {
+	text-align: center;
+	font-size: 2em;
+	font-family: "Inconsolata", sans-serif;
+	padding-top: 1em;
+	color: #BBDE66;
+}
+
+}
